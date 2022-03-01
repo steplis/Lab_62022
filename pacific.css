@@ -1,0 +1,254 @@
+* {box-sizing: border-box;}
+body
+{background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial;
+}
+header h1 a{ text-decoration: none;}
+header h1 a:link {color: #FFFFFF;}
+header h1 a:visited {Color: #FFFFFF;}
+header h1 a:hover {color: #90C7E3;}
+header{background-color: #FFFFFF;
+    text-align: center;
+}
+
+h1
+{background-color: #002171;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-image: url("sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    text-indent: 1em;
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+nav
+{
+    font-weight: bold;
+    font-size: 120%;
+    padding: 0px;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    marker: none;
+    text-align: center;}
+nav ul {list-style-type: none;}
+nav li {border-bottom: 1px;
+    border-bottom-color: darkblue;
+    border-bottom-style: solid;}
+nav a {text-decoration: none;
+}
+nav:link {color:#5C7FA3;}
+nav:visited{color:#344873;}
+nav:hover {color: #A52A2A;}
+h2
+{color: #1976D2;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC}
+h3
+{font-family: Georgia, Times New Roman, serif;
+    font-weight: bold;}
+main ul
+{color: #002171;
+    list-style-image: url("marker.gif")}
+.resort {color: #1976D2;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#contact {font-size: 90%;}
+footer
+{font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+    background-color: #FFFFFF;}
+
+img
+{width: 100%;}
+#wrapper
+{
+    background-color: #90c7E3;
+    background-image: linear-gradient(#FFFFFF, #90C7E3);}
+main {background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+    overflow: auto;
+}
+#homehero {height: 300px;
+    background-image: url("coast2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#yurthero {height: 300px;
+    background-image: url("yurt.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#trailhero {height: 300px;
+    background-image: url("trail.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#special {}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type (odd){
+    background-color: #F5FAFC;}
+
+table {
+    border: 2px;
+    border-color: #3399CC;
+    border-style: solid;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px;
+    border-color: #3399CC;
+    border-style: solid;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px;
+    border-color: #3399CC;
+    border-style: solid;
+}
+video, embed {float: right; padding-left: 20px}
+form {display: flex;
+flex-flow: column nowrap;}
+input, textarea { margin-bottom: .5em;}
+
+form {display: flex;
+flex-flow: column nowrap;}
+input, textarea {margin-bottom: .5em;}
+
+
+
+@media (min-width: 700px)
+{* {box-sizing: border-box;}
+    body
+    {background-color: #EAEAEA;
+        color: #666666;
+        font-family: Arial;
+    }
+    header h1 a { text-decoration: none;}
+    header h1 a:link {color: #FFFFFF;}
+    header h1 a:visited {Color: #FFFFFF;}
+    header h1 a:hover {color: #90C7E3;}
+    header{background-color: #FFFFFF;
+        height: 120px;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 3em;
+    }
+
+    h1
+    {
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        letter-spacing: 0.25em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    nav
+    {float: left;
+        width:160px;
+        font-weight: bold;
+        font-size: 120%;
+        padding: 1.5em;
+        margin: 0;
+        padding-left: 0;
+        font-size: 1.2em;
+        marker: none;}
+    nav ul a {list-style-type: none;}
+    nav a {text-decoration: none;}
+    nav li a {text-decoration: none;}
+    nav:link {color:#5C7FA3;}
+    nav:visited{color:#344873;}
+    nav:hover {color: #A52A2A;}
+    h2
+    {color: #1976D2;
+        font-family: Georgia, "Times New Roman", serif;
+        text-shadow: 1px 1px 1px #CCCCCC}
+    h3
+    {font-family: Georgia, Times New Roman, serif;
+        font-weight: bold;}
+    main ul
+    {color: #002171;
+        list-style-image: url("marker.gif")}
+    .resort {color: #1976D2;
+        font-family: Georgia, "Times New Roman", serif;
+    }
+    #contact {font-size: 90%;}
+    footer
+    {font-size: 75%;
+        font-style: italic;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", serif;
+        padding: 2em;
+        margin-left: 190px;
+        background-color: #FFFFFF;}
+
+    img
+    {width: 100%;}
+    #wrapper
+    {width: 80%;
+        background-color: #90c7E3;
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 3px 3px 3px #333333;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: #000033;
+        border-width: 1px;
+        background-image: linear-gradient(#FFFFFF, #90C7E3);}
+    main {background-color: #FFFFFF;
+        padding-top: 1px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        margin-left: 190px;
+        overflow: auto;
+    }
+    #homehero {height: 300px;
+        background-image: url("coast2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 190px;}
+    #yurthero {height: 300px;
+        background-image: url("yurt.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 190px;}
+    #trailhero {height: 300px;
+        background-image: url("trail.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 190px;}
+    section{float: left;
+        width: 33%;
+        padding-left: 2em;
+        padding-right: 2em;}}
+
+form {display: grid;
+grid-template-columns: 6em 1fr;
+grid-template-rows: auto;
+    width: 60%;
+grid-gap: 1em;
+}
+
+.submit {grid-column: auto;
+width: 9em;}

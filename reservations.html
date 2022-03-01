@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations </title>
+    <link rel="stylesheet" href="pacific.css">
+    <description></description>
+</head>
+<div id="wrapper">
+<body>
+<header><h1><a href="index.html">Pacific Trails Resort</a></h1></header>
+<p>
+<video controls="controls" poster="pacifictrailsresort.jpg" width="320" height="240">
+    <source src="PacificTrailsResort.mp4" type="video/mp4">
+    <source src="PacificTrailsResort.ogv" type="video/ogv">
+    <source src="pacifictrailsresort.swf" type="video/swf">
+    <source src="pacifictrailsresort.jpg" type="picture/jpg">
+</video>
+<nav> <ul>
+    <li> <a href="index.html">Home</a> </li>
+    <li><a href="Yurts.html">Yurts</a> </li>
+    <li><a href="activities.html">Activities</a> </li>
+    <li><a href="reservations.hmtl">Reservations</a></li>
+</ul>
+</nav>
+</p>
+<main>
+<h2>Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+    <p>Required fields are marked with an asterisk *</p>
+    <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+<label for="myFName"> *First Name: </label>
+        <input type="text" id="myFName" required="required">
+        <label for="myLname"> *Last Name: </label>
+        <input type="text" id="myLname" required="required">
+        <label for="email"> *Email Address: </label>
+        <input type="email" id="email" required="required">
+        <label for="phonenumber"> Phone Number: </label>
+        <input type="text" id="phonenumber" maxlength="12">
+        <label for="calendar"> Arrival Date: </label>
+        <input type="number" id="calendar" min="1" max="14">
+        <label for="myComments"> Comments: </label>
+        <textarea id="myComments" rows="2" cols="30"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+<p><span class="resort">Pacific Trails</span><br>
+12010 Pacific Trails<br>
+Zephyr, CA 95555<br>
+</p>
+888-555-5555
+</main>
+<footer>
+copyright &copy; 2020 Pacific Trails Resort<br>
+<a href="mailto:Lisa@Stephenson.com">lisa@stephenson.com</a>
+</footer>
+</body>
+</div>
+</html>
