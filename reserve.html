@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations </title>
+    <link rel="stylesheet" href="groomer.css">
+    <description></description>
+</head>
+<div id="wrapper">
+<body>
+<header><h1><a href="index.html">Pacific Trails Resort</a></h1></header>
+<p>
+<video controls="controls" poster="pacifictrailsresort.jpg" width="320" height="240">
+    <source src="pexels-yaroslav-shuraev-9631902.mp4" type="video/mp4">
+</video>
+<nav> <ul>
+    <li> <a href="index.html">Home</a> </li>
+    <li><a href="services.html">Services</a> </li>
+    <li><a href="aboutme.html">About Me</a> </li>
+    <li><a href="reserve.html">Contact Us</a></li>
+</ul>
+</nav>
+</p>
+<main>
+<h2>Get in Touch with Me!</h2>
+    <h3>Contact Us Today!</h3>
+    <p>Required fields are marked with an asterisk *</p>
+    <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+<label for="myFName"> *First Name: </label>
+        <input type="text" id="myFName" required="required">
+        <label for="myLname"> *Last Name: </label>
+        <input type="text" id="myLname" required="required">
+        <label for="email"> *Email Address: </label>
+        <input type="email" id="email" required="required">
+        <label for="phonenumber"> Phone Number: </label>
+        <input type="text" id="phonenumber" maxlength="12">
+        <label for="calendar"> Appointment Date: </label>
+        <input type="number" id="calendar" min="1" max="14">
+        <label for="myComments"> Comments: </label>
+        <textarea id="myComments" rows="2" cols="30"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <p><span class="resort">Lisa's Dog Grooming</span><br>
+        123 Lake Country Dr<br>
+        Delafield, WI 53018<br>
+    </p>
+    262-244-7226
+</main>
+<footer>
+    copyright &copy; 2022 Lisa's Dog Grooming<br>
+    <a href="mailto:lastephenson13@gmail.com">lastephenson13@gmail.com</a>
+</footer>
+</body>
+</div>
+</html>
